@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container ul li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 300px;
+  text-decoration: none;
+}
+
+.container ul {
+  background-color: rgb(185, 176, 176);
+  display: flex;
+  paddding: 50px;
+  justify-content: space-evenly;
+}
+
+.box {
+  max-width: 200px;
+  background-color: aqua;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+}

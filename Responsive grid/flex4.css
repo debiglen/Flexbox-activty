@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+section {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  background-color: rgb(118, 186, 99);
+  width: 200px;
+  height: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .color {
+    background-color: #ebfd28;
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .color {
+    background-color: rgb(124, 42, 165);
+    width: 200px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 200px;
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 300px auto;
+}
